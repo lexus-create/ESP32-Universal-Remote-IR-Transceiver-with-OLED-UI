@@ -1,5 +1,5 @@
 # ESP32-Universal-Remote-IR-Transceiver-with-OLED-UI
-An IR emote tool built on an ESP32. It can learn IR signals from any remote, save them to an SD card, and fire them back later. Built as a learning project to get more comfortable with ESP32, SPI/SD storage, and non-blocking code.
+An IR remote tool built on an ESP32. It can learn IR signals from any remote, save them to an SD card, and fire them back later. Built as a learning project to get more comfortable with ESP32, SPI/SD storage, and non-blocking code.
 The device boots into a simple 3-item menu on the OLED, navigated with two buttons:
 
 Receive Mode — listens for 5 seconds, captures any IR signal it sees, and appends it to a file on the SD card.
